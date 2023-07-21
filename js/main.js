@@ -235,10 +235,10 @@ $(function () {
     });
 
 
-    //*========STICKY SIDEBAR=======
-    // $("#sticky_sidebar").stickit({
-    //     top: 90,
-    // })
+    //=====STICKY SIDEBAR======
+    $("#sticky_sidebar").stickit({
+        top: 90,
+    })
 
 
     //======wow js=======
