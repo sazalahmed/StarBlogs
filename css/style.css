@@ -2320,8 +2320,6 @@ footer::after {
 /*===========================
     BLOG DETAILS START
 ===========================*/
-.blog_details {}
-
 .blog_details_img {
     height: 570px;
     position: relative;
@@ -2524,8 +2522,6 @@ footer::after {
     margin-top: 25px;
 }
 
-.blog_center_text p {}
-
 .blog_center_text ul {
     margin-top: 20px;
 }
@@ -2589,8 +2585,6 @@ footer::after {
     flex-wrap: wrap;
 }
 
-.blog_tags_area .social li {}
-
 .blog_tags_area .social li a {
     width: 30px;
     height: 30px;
@@ -2606,8 +2600,6 @@ footer::after {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-
-.blog_tags_area .social li a:hover {}
 
 .details_blooger {
     padding: 30px;
@@ -2642,8 +2634,6 @@ footer::after {
     font-weight: 700;
     margin-bottom: 17px;
 }
-
-.details_blooger_text p {}
 
 .blog_det_button {
     display: flex;
@@ -2695,8 +2685,6 @@ footer::after {
     margin-top: 15px;
 }
 
-.related_post {}
-
 .related_post .heading {
     position: relative;
     font-size: 22px;
@@ -2728,8 +2716,6 @@ footer::after {
 .related_post .single_article_img {
     height: 190px;
 }
-
-.related_post .single_article {}
 
 .related_post .button_bg {
     border-radius: 5px;
@@ -2786,8 +2772,6 @@ footer::after {
     justify-content: space-between;
 }
 
-.single_comment .text h3 span {}
-
 .single_comment .text h3 span i {
     color: var(--colorPrimary);
     margin-right: 5px;
@@ -2824,18 +2808,11 @@ footer::after {
     width: 86%;
 }
 
-
-
-
-.comment_input_area {}
-
 .comment_input_area h3 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 40px;
 }
-
-.comment_input_area form {}
 
 .comment_input_area form input,
 .comment_input_area form textarea {
@@ -2893,8 +2870,6 @@ footer::after {
     top: 0;
     left: 0;
 }
-
-.blog_details_banner_text {}
 
 .blog_details_banner div {
     height: 100%;
@@ -3058,8 +3033,6 @@ footer::after {
     align-items: center;
 }
 
-.pagination ul li {}
-
 .pagination ul li a {
     width: 35px;
     height: 35px;
@@ -3099,8 +3072,6 @@ footer::after {
     margin-right: 0;
 }
 
-.category_item {}
-
 .category_item .sidebar_instagram_item {
     margin-bottom: 0;
     margin-top: 25px;
@@ -3119,8 +3090,6 @@ footer::after {
 /*===========================
     ABOUT US START
 ===========================*/
-.about_page {}
-
 .breadcrumb {
     margin: 20px 0px;
 }
@@ -3130,8 +3099,6 @@ footer::after {
     flex-wrap: wrap;
     align-items: center;
 }
-
-.breadcrumb ul li {}
 
 .breadcrumb ul li a {
     font-size: 14px;
@@ -3283,12 +3250,112 @@ footer::after {
 ===========================*/
 
 
+/*===========================
+    ERROR PAGE START
+===========================*/
+.error_text {
+    text-align: center;
+}
 
+.error_text .img {
+    width: 550px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.error_text h2 {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.error_text a {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.error_text a i {
+    margin-right: 5px;
+}
 
 /*===========================
-    START
+    ERROR PAGE END
 ===========================*/
 
+
 /*===========================
-    END
+    CONTACT PAGE START
+===========================*/
+.contact_img {
+    height: 650px;
+}
+
+.contact_info h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact_info_box {
+    position: relative;
+    padding-left: 45px;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+
+.contact_info_box i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    color: var(--colorPrimary);
+}
+
+.contact_info_box h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact_form input,
+.contact_form textarea {
+    background: #f5f5f5;
+    border-radius: 0;
+    margin-top: 20px;
+    border: 1px solid #e4e7e999;
+    padding: 17px 30px;
+}
+
+.contact_form button {
+    margin-top: 15px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+    color: var(--bs-body-color);
+    background-color: var(--colorWhite);
+    border-color: var(--colorPrimary);
+    outline: 0;
+    box-shadow: none;
+}
+
+.cntact_map {
+    height: 600px;
+}
+
+.cntact_map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*===========================
+    CONTACT PAGE END
 ===========================*/
