@@ -34,36 +34,47 @@ $(function () {
             {
                 breakpoint: 1400,
                 settings: {
+                    // centerMode: false,
+                    variableWidth: false,
                     slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    centerMode: false,
+                    variableWidth: false,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
+                    centerMode: false,
+                    variableWidth: false,
                     slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    centerMode: false,
+                    variableWidth: false,
+                    arrows: false,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
+                    centerMode: false,
+                    variableWidth: false,
+                    arrows: false,
                     slidesToShow: 1,
                 }
             }
         ]
     });
-
 
 
     //===TRENDY SLIDER===
@@ -133,8 +144,6 @@ $(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
-        // centerMode: true,
-        // variableWidth: true,
         dots: true,
         arrows: false,
 
@@ -197,13 +206,13 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
@@ -238,7 +247,7 @@ $(function () {
     //=====STICKY SIDEBAR======
     $("#sticky_sidebar").stickit({
         top: 90,
-    })
+    });
 
 
     //======wow js=======
@@ -272,24 +281,13 @@ $(function () {
         $(this).siblings('.active').removeClass('active');
         $(this).addClass('active');
         event.preventDefault();
-
     });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 
 });

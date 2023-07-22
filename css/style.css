@@ -443,6 +443,46 @@ header .header_icon li a:hover {
     background: var(--colorWhite);
 }
 
+/* for mobile menu start*/
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    border-radius: 0;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border: none;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler .close_icon {
+    display: none;
+}
+
+.navbar-toggler.show {
+    background: red;
+}
+
+.navbar-toggler.show .bar_icon {
+    display: none;
+}
+
+.navbar-toggler.show .close_icon {
+    display: block;
+}
+
+/* for mobile end */
+
 /* menu end */
 
 
@@ -598,10 +638,6 @@ header .header_icon li a:hover {
     color: var(--colorPrimary);
 }
 
-.banner_slider .slick-current .banner_slider_img {
-    /* width: 900px; */
-}
-
 .banner_slider_item:hover .banner_slider_text p,
 .banner_slider .slick-current .banner_slider_text p {
     height: 48px;
@@ -621,12 +657,11 @@ header .header_icon li a:hover {
 
 
 /* about us start */
-
 .about_img {
-    width: 800px;
+    width: 750px;
     height: auto;
     position: relative;
-    left: -200px;
+    left: -140px;
 }
 
 .about_text {
