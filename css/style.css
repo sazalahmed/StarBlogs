@@ -2221,6 +2221,7 @@ footer::after {
 .blog .sidebar_about_img {
     width: 240px;
     height: 240px;
+    margin: 0 auto;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

@@ -26,12 +26,12 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-lg-3 d-none d-lg-block">
                     <a class="header_logo" href="index_2.html">
                         <img src="images/logo_2.png" alt="logo" class="img-fluid w-100">
                     </a>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-lg-6 col-md-6 d-none d-md-block">
                     <div class="search_form">
                         <form>
                             <input type="search" placeholder="Search here...">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3">
+                <div class="col-lg-3 col-md-6">
                     <ul class="header_icon d-flex flex-wrap">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -61,13 +61,17 @@
     ==========================-->
     <nav class="navbar navbar-expand-lg main_menu">
         <div class="container">
+            <a class="navbar-brand d-none" href="index.html">
+                <img src="images/logo.png" alt="logo" class="img-fluid w-100">
+            </a>
             <span class="menubar_icon">
                 <i class="far fa-bars"></i>
             </span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="far fa-bars bar_icon"></i>
+                <i class="far fa-times close_icon"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
@@ -212,7 +216,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_1.jpg" alt="trendy news" class="img-fluid w-100">
@@ -227,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_2.jpg" alt="trendy news" class="img-fluid w-100">
@@ -240,7 +244,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_3.jpg" alt="trendy news" class="img-fluid w-100">
@@ -253,7 +257,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_4.jpg" alt="trendy news" class="img-fluid w-100">
@@ -266,7 +270,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_2.jpg" alt="trendy news" class="img-fluid w-100">
@@ -279,7 +283,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_1.jpg" alt="trendy news" class="img-fluid w-100">
@@ -308,10 +312,10 @@
     <section class="artical_area_2 artical_area mt_60 pt_60 pb_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-lg-3">
                     <h2 class="heading">Recent Artical</h2>
                 </div>
-                <div class="col-xl-9">
+                <div class="col-lg-9">
                     <div class="artical_filter">
                         <button class=" active" data-filter="*">All Categories</button>
                         <button data-filter=".html">HTML Designs</button>
@@ -322,7 +326,7 @@
                 </div>
             </div>
             <div class="row grid">
-                <div class="col-xl-4 html ui wow fadeInUp" data-wow-duration="1s">
+                <div class="col-lg-4 col-md-6 html ui wow fadeInUp" data-wow-duration="1s">
                     <div class="single_article">
                         <a href="#" class="single_article_img">
                             <img src="images/single_article_img_1.jpg" alt="artical" class="img-fluid w-100">
@@ -338,7 +342,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 wp ui wow fadeInUp" data-wow-duration="1s">
+                <div class="col-lg-4 col-md-6 wp ui wow fadeInUp" data-wow-duration="1s">
                     <div class="single_article">
                         <a href="#" class="single_article_img">
                             <img src="images/single_article_img_2.jpg" alt="artical" class="img-fluid w-100">
@@ -354,7 +358,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 html cms wow fadeInUp" data-wow-duration="1s">
+                <div class="col-lg-4 col-md-6 html cms wow fadeInUp" data-wow-duration="1s">
                     <div class="single_article">
                         <a href="#" class="single_article_img">
                             <img src="images/single_article_img_3.jpg" alt="artical" class="img-fluid w-100">
@@ -370,7 +374,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 wp ui wow fadeInUp" data-wow-duration="1s">
+                <div class="col-lg-4 col-md-6 wp ui wow fadeInUp" data-wow-duration="1s">
                     <div class="single_article">
                         <a href="#" class="single_article_img">
                             <img src="images/single_article_img_4.jpg" alt="artical" class="img-fluid w-100">
@@ -386,7 +390,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 html cms wow fadeInUp" data-wow-duration="1s">
+                <div class="col-lg-4 col-md-6 html cms wow fadeInUp" data-wow-duration="1s">
                     <div class="single_article">
                         <a href="#" class="single_article_img">
                             <img src="images/single_article_img_5.jpg" alt="artical" class="img-fluid w-100">
@@ -402,7 +406,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 wp wow fadeInUp" data-wow-duration="1s">
+                <div class="col-lg-4 col-md-6 wp wow fadeInUp" data-wow-duration="1s">
                     <div class="single_article">
                         <a href="#" class="single_article_img">
                             <img src="images/single_article_img_6.jpg" alt="artical" class="img-fluid w-100">
@@ -442,7 +446,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_1.jpg" alt="trendy news" class="img-fluid w-100">
@@ -462,7 +466,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_2.jpg" alt="trendy news" class="img-fluid w-100">
@@ -482,7 +486,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_3.jpg" alt="trendy news" class="img-fluid w-100">
@@ -502,7 +506,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_4.jpg" alt="trendy news" class="img-fluid w-100">
@@ -522,7 +526,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_1.jpg" alt="trendy news" class="img-fluid w-100">
@@ -542,7 +546,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="trendy_news_item">
                         <div class="trendy_news_img">
                             <img src="images/trendy_news_2.jpg" alt="trendy news" class="img-fluid w-100">
@@ -581,17 +585,17 @@
     <div class="blog mt_30">
         <div class="container">
             <div class="row">
-                <div class="col-xl-9 margin_right">
+                <div class="col-xl-9 col-md-7 col-lg-8 margin_right">
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/weekly_new_artical_img_1.jpg" alt="artical"
                                         class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -608,13 +612,13 @@
                     </div>
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/banner_slider_1.jpg" alt="artical" class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -631,13 +635,13 @@
                     </div>
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/banner_slider_2.jpg" alt="artical" class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -654,13 +658,13 @@
                     </div>
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/banner_slider_3.jpg" alt="artical" class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -677,13 +681,13 @@
                     </div>
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/banner_slider_4.jpg" alt="artical" class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -700,14 +704,14 @@
                     </div>
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/weekly_new_artical_img_1.jpg" alt="artical"
                                         class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -724,13 +728,13 @@
                     </div>
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/banner_slider_1.jpg" alt="artical" class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -747,13 +751,13 @@
                     </div>
                     <div class="single_blog single_article wow fadeInUp" data-wow-duration="1s">
                         <div class="row">
-                            <div class="col-xl-5">
+                            <div class="col-lg-5">
                                 <a href="#" class="single_article_img">
                                     <img src="images/banner_slider_2.jpg" alt="artical" class="img-fluid w-100">
                                     <span class="button_bg">Playing</span>
                                 </a>
                             </div>
-                            <div class="col-xl-7">
+                            <div class="col-lg-7">
                                 <div class="single_article_text">
                                     <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
@@ -812,7 +816,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 wow fadeInRight" data-wow-duration="1s">
+                <div class="col-xl-3 col-md-5 col-lg-4 wow fadeInRight" data-wow-duration="1s">
                     <div class="artical_sidebar">
                         <h3 class="heading">ABOUT ME</h3>
 
@@ -1021,7 +1025,7 @@
         <div class="subscribe_overlay pt_60 pb_60">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7 m-auto">
+                    <div class="col-lg-7 m-auto">
                         <div class="subscribe_text">
                             <h2>JOIN US TODAY!</h2>
                             <p>Maboriosam nesciung eget magna dapibus distinctio per odiy, lorem mingma aute into they
