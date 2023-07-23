@@ -1,3 +1,30 @@
+/* 
+***************************************
+Template Name: Starblogs - Personal and Travel Blog HTML Template
+Author:  
+Author Email: 
+website: 
+Version: 1.0
+Description: 
+***************************************
+
+CSS INDEX
+===================================
+01. GLOBAL CSS 
+02. HOME PAGE 1
+03. HOME PAgE 2
+04. BLOG DETAILS 1
+05. BLOG DETAILS 2
+06. CATEGORY
+07. ABOUT US
+08. ERROR PAGE
+09. CONTACT PAGE
+
+****************************************/
+
+/*===========================
+    GLOBAL CSS START
+===========================*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
@@ -83,9 +110,6 @@ button {
         'Roboto', sans-serif;
 }
 
-/*===========================
-    GLOBAL CSS START
-===========================*/
 .common_btn {
     font-size: 18px;
     font-weight: 500;
@@ -129,6 +153,10 @@ button {
     transform: rotate(180deg);
     bottom: -12px;
     left: 15px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
 
 .title {
@@ -156,11 +184,9 @@ button {
     GLOBAL CSS END
 ===========================*/
 
-
 /*===========================
     HOME PAGE 1 START
 ===========================*/
-
 /* header start */
 header {
     width: 100%;
@@ -214,6 +240,10 @@ header .header_icon li a:hover {
     width: 100%;
     height: 80px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .main_menu .menubar_icon {
@@ -482,9 +512,7 @@ header .header_icon li a:hover {
 }
 
 /* for mobile end */
-
 /* menu end */
-
 
 /* banner start */
 .banner {
@@ -539,6 +567,10 @@ header .header_icon li a:hover {
     transform: rotate(180deg);
     bottom: -12px;
     left: 15px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
 
 .banner_slider_text a {
@@ -655,7 +687,6 @@ header .header_icon li a:hover {
 
 /* banner end */
 
-
 /* about us start */
 .about_img {
     width: 750px;
@@ -695,9 +726,7 @@ header .header_icon li a:hover {
 
 /* about us end */
 
-
 /* trendy news start */
-
 .trendy_news h2 {
     font-size: 24px;
     font-weight: 500;
@@ -829,9 +858,7 @@ header .header_icon li a:hover {
 
 /* trendy news end */
 
-
 /* artical area start */
-
 .large_artical {
     position: relative;
 }
@@ -1348,7 +1375,6 @@ header .header_icon li a:hover {
     padding: 30px;
     background: #fefaf6;
     border: 1px solid #fdf0e4;
-    /* margin-bottom: 40px; */
 }
 
 .sidebar_category ul li a {
@@ -1361,10 +1387,18 @@ header .header_icon li a:hover {
     justify-content: space-between;
     margin-bottom: 20px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .sidebar_category ul li a span {
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .sidebar_category ul li a:hover {
@@ -1434,7 +1468,6 @@ header .header_icon li a:hover {
 
 /* artical area end */
 
-
 /* futured post start */
 .featured_post {
     position: relative;
@@ -1502,7 +1535,6 @@ header .header_icon li a:hover {
 
 /* futured post end */
 
-
 /* subscribe start */
 .subscribe {
     background-position: center !important;
@@ -1559,7 +1591,6 @@ header .header_icon li a:hover {
 
 /* subscribe end */
 
-
 /* gallery start */
 .gallery_item {
     height: 340px;
@@ -1587,11 +1618,19 @@ header .header_icon li a:hover {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
 }
 
 .gallery_item:hover .gallery_overlay {
     transform: scale(1);
     opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
 .gallery_slider {
@@ -1600,9 +1639,7 @@ header .header_icon li a:hover {
 
 /* gallery end */
 
-
 /* footer start */
-
 footer {
     background: #f3f3f8;
     position: relative;
@@ -1629,6 +1666,10 @@ footer {
     text-transform: capitalize;
     transition: all linear .3s;
     margin: 0px 25px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .footer_text .footer_menu li a:hover {
@@ -1683,7 +1724,6 @@ footer::after {
 
 /* footer end */
 
-
 /* scroll button start */
 .scroll_btn {
     width: 35px;
@@ -1734,15 +1774,12 @@ footer::after {
 }
 
 /* scroll button end */
-
-
 /*===========================
     HOME PAGE 1 END
 ===========================*/
 
-
 /*===========================
-    HOME PAHE 2 START
+    HOME PAGE 2 START
 ===========================*/
 .home_2 .button_bg {
     border-radius: 40px;
@@ -1855,7 +1892,6 @@ footer::after {
 
 /* header 2 end */
 
-
 /* menu 2 start */
 .home_2 .main_menu {
     position: absolute;
@@ -1911,7 +1947,6 @@ footer::after {
 }
 
 /* menu 2 end */
-
 
 /* banner 2 start */
 .banner_2 {
@@ -2009,7 +2044,6 @@ footer::after {
 
 /* banner 2 end */
 
-
 /* trendy news 2 start */
 .home_2 .trendy_news_item {
     margin: 25px 0px 0px 0px;
@@ -2020,7 +2054,6 @@ footer::after {
 }
 
 /* trendy news 2 end */
-
 
 /* artical area 2 start */
 .artical_area_2 {
@@ -2116,7 +2149,6 @@ footer::after {
 
 /* artical area 2 end */
 
-
 /* video start */
 .video .heading {
     font-size: 24px;
@@ -2152,7 +2184,6 @@ footer::after {
 }
 
 /* video end */
-
 
 /* blog start */
 .blog .common_btn {
@@ -2247,7 +2278,6 @@ footer::after {
 
 /* blog end */
 
-
 /* footer 2 start */
 .footer_about h3 {
     font-size: 22px;
@@ -2281,6 +2311,10 @@ footer::after {
     border-radius: 50%;
     transition: all linear .3s;
     margin-right: 10px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .footer_about ul li a:hover {
@@ -2318,6 +2352,10 @@ footer::after {
     font-size: 18px;
     color: var(--colorBlack);
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .footer_post li .text a:hover {
@@ -2392,6 +2430,10 @@ footer::after {
     color: var(--paraColor);
     transition: all linear .3s;
     margin-left: 50px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .footer_2 .footer_copyright ul li a:hover {
@@ -2400,7 +2442,7 @@ footer::after {
 
 /* footer 2 end */
 /*===========================
-    HOME PAHE 2 END
+    HOME PAGE 2 END
 ===========================*/
 
 
@@ -2528,8 +2570,6 @@ footer::after {
     font-size: 12px;
 }
 
-
-
 .blog_details_text p {
     margin-top: 20px;
 }
@@ -2598,6 +2638,10 @@ footer::after {
     bottom: 50px;
     right: 50px;
     z-index: 99;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .blog_center_img {
@@ -2661,6 +2705,10 @@ footer::after {
     font-size: 16px;
     margin-left: 5px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .blog_tags_area .tags li a:hover {
@@ -2821,7 +2869,6 @@ footer::after {
     margin-top: 10px;
 }
 
-
 .comment_area {
     border-top: 1px solid #ffdfc2;
     padding-top: 28px;
@@ -2934,7 +2981,6 @@ footer::after {
     BLOG DETAILS END
 ===========================*/
 
-
 /*===========================
     BLOG DETAILS 2 START
 ===========================*/
@@ -2952,7 +2998,6 @@ footer::after {
     content: "";
     width: 100%;
     height: 100%;
-    /* background: rgb(22, 43, 73); */
     background: linear-gradient(0deg, rgba(22, 43, 73, 1) 0%, rgba(22, 43, 73, 0.6250875350140056) 35%, rgba(22, 43, 73, 0) 70%);
     top: 0;
     left: 0;
@@ -3018,7 +3063,6 @@ footer::after {
     BLOG DETAILS 2 END
 ===========================*/
 
-
 /*===========================
     CATEGORY START
 ===========================*/
@@ -3057,10 +3101,6 @@ footer::after {
     color: var(--colorWhite);
     font-size: 15px;
 }
-
-
-
-
 
 .category_item .show_result {
     background: #fdf0e5;
@@ -3173,7 +3213,6 @@ footer::after {
     CATEGORY END
 ===========================*/
 
-
 /*===========================
     ABOUT US START
 ===========================*/
@@ -3263,13 +3302,9 @@ footer::after {
     margin: 30px 0px 0px 0px;
 }
 
-
-
-
 .testimonial {
     background: #f5f7f8;
 }
-
 
 .single_testimonial {
     border-bottom: 1px solid #f3974530;
@@ -3336,7 +3371,6 @@ footer::after {
     ABOUT US END
 ===========================*/
 
-
 /*===========================
     ERROR PAGE START
 ===========================*/
@@ -3370,7 +3404,6 @@ footer::after {
 /*===========================
     ERROR PAGE END
 ===========================*/
-
 
 /*===========================
     CONTACT PAGE START
