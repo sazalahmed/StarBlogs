@@ -20,7 +20,6 @@
 
 <body>
 
-
     <!--=========================
         HEADER START
     ==========================-->
@@ -59,7 +58,8 @@
             <a class="navbar-brand d-none" href="index.html">
                 <img src="images/logo.png" alt="logo" class="img-fluid w-100">
             </a>
-            <span class="menubar_icon">
+            <span class="menubar_icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
                 <img src="images/menubar_icon.png" alt="icon" class="img-fluid w-100">
             </span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -118,6 +118,79 @@
             </div>
         </div>
     </nav>
+
+    <div class="toggle_menu offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-body">
+            <h3>HOT TOPICS</h3>
+            <ul class="hot_topic">
+                <li><a href="#">Animal <span>(4)</span></a></li>
+                <li><a href="#">Fashion <span>(9)</span></a></li>
+                <li><a href="#">Food <span>(9)</span></a></li>
+                <li><a href="#">Guides <span>(2)</span></a></li>
+                <li><a href="#">Healthy <span>(3)</span></a></li>
+                <li><a href="#">Hotels <span>(9)</span></a></li>
+                <li><a href="#">Lifestyle <span>(11)</span></a></li>
+                <li><a href="#">Travel <span>(11)</span></a></li>
+            </ul>
+            <h3>DON'T MISS</h3>
+            <ul class="dont_miss">
+                <li>
+                    <div class="img">
+                        <img src="images/insta_2.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="images/insta_1.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="images/insta_3.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="images/insta_4.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <h3>ADVERTISE BANNER</h3>
+            <div class="toggle_banner">
+                <img src="images/gallery_img_1.jpg" alt="add" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
     <!--=========================
         MAIN MENU END
     ==========================-->

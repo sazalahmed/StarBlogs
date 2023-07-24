@@ -64,9 +64,11 @@
             <a class="navbar-brand d-none" href="index.html">
                 <img src="images/logo.png" alt="logo" class="img-fluid w-100">
             </a>
-            <span class="menubar_icon">
+            <span class="menubar_icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
                 <i class="far fa-bars"></i>
             </span>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -119,6 +121,79 @@
             </div>
         </div>
     </nav>
+
+    <div class="toggle_menu offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-body">
+            <h3>HOT TOPICS</h3>
+            <ul class="hot_topic">
+                <li><a href="#">Animal <span>(4)</span></a></li>
+                <li><a href="#">Fashion <span>(9)</span></a></li>
+                <li><a href="#">Food <span>(9)</span></a></li>
+                <li><a href="#">Guides <span>(2)</span></a></li>
+                <li><a href="#">Healthy <span>(3)</span></a></li>
+                <li><a href="#">Hotels <span>(9)</span></a></li>
+                <li><a href="#">Lifestyle <span>(11)</span></a></li>
+                <li><a href="#">Travel <span>(11)</span></a></li>
+            </ul>
+            <h3>DON'T MISS</h3>
+            <ul class="dont_miss">
+                <li>
+                    <div class="img">
+                        <img src="images/insta_2.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="images/insta_1.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="images/insta_3.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="images/insta_4.jpg" alt="topics" class="img-fluid w-100">
+                    </div>
+                    <div class="text">
+                        <a href="#">Vintage 1950 pretty woman regular lifestyle</a>
+                        <p>
+                            <span>BY STEVEN</span>
+                            <span>MAY 28, 2023</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <h3>ADVERTISE BANNER</h3>
+            <div class="toggle_banner">
+                <img src="images/gallery_img_1.jpg" alt="add" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
     <!--=========================
         MAIN MENU END
     ==========================-->
@@ -223,7 +298,8 @@
                         </div>
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -238,7 +314,7 @@
                         </div>
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work ineadanique? </a>
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work ineadanique? </a>
                             <p>Monsectetur adipiscing elit pted in maecenas in the accumsan.</p>
                             <span class="time"><i class="far fa-clock"></i> 2 Days Ago</span>
                         </div>
@@ -251,7 +327,7 @@
                         </div>
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work ineadanique? </a>
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work ineadanique? </a>
                             <p>Monsectetur adipiscing elit pted in maecenas in the accumsan.</p>
                             <span class="time"><i class="far fa-clock"></i> 2 Days Ago</span>
                         </div>
@@ -264,7 +340,7 @@
                         </div>
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work ineadanique? </a>
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work ineadanique? </a>
                             <p>Monsectetur adipiscing elit pted in maecenas in the accumsan.</p>
                             <span class="time"><i class="far fa-clock"></i> 2 Days Ago</span>
                         </div>
@@ -277,7 +353,7 @@
                         </div>
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work ineadanique? </a>
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work ineadanique? </a>
                             <p>Monsectetur adipiscing elit pted in maecenas in the accumsan.</p>
                             <span class="time"><i class="far fa-clock"></i> 2 Days Ago</span>
                         </div>
@@ -290,7 +366,8 @@
                         </div>
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -333,7 +410,8 @@
                             <span class="button_bg">Playing</span>
                         </a>
                         <div class="single_article_text">
-                            <a class="title" href="#">Amamaing of the SpyerIin a work find to a make it workd is
+                            <a class="title" href="single_blog1.html">Amamaing of the SpyerIin a work find to a make it
+                                workd is
                                 ineadanique? </a>
                             <ul>
                                 <li><i class="far fa-user"></i> Benjami Evlent</li>
@@ -349,7 +427,8 @@
                             <span class="button_bg">Playing</span>
                         </a>
                         <div class="single_article_text">
-                            <a class="title" href="#">Amamaing of the SpyerIin a work find to a make it workd is
+                            <a class="title" href="single_blog1.html">Amamaing of the SpyerIin a work find to a make it
+                                workd is
                                 ineadanique? </a>
                             <ul>
                                 <li><i class="far fa-user"></i> Benjami Evlent</li>
@@ -365,7 +444,8 @@
                             <span class="button_bg">Playing</span>
                         </a>
                         <div class="single_article_text">
-                            <a class="title" href="#">Amamaing of the SpyerIin a work find to a make it workd is
+                            <a class="title" href="single_blog1.html">Amamaing of the SpyerIin a work find to a make it
+                                workd is
                                 ineadanique? </a>
                             <ul>
                                 <li><i class="far fa-user"></i> Benjami Evlent</li>
@@ -381,7 +461,8 @@
                             <span class="button_bg">Playing</span>
                         </a>
                         <div class="single_article_text">
-                            <a class="title" href="#">Amamaing of the SpyerIin a work find to a make it workd is
+                            <a class="title" href="single_blog1.html">Amamaing of the SpyerIin a work find to a make it
+                                workd is
                                 ineadanique? </a>
                             <ul>
                                 <li><i class="far fa-user"></i> Benjami Evlent</li>
@@ -397,7 +478,8 @@
                             <span class="button_bg">Playing</span>
                         </a>
                         <div class="single_article_text">
-                            <a class="title" href="#">Amamaing of the SpyerIin a work find to a make it workd is
+                            <a class="title" href="single_blog1.html">Amamaing of the SpyerIin a work find to a make it
+                                workd is
                                 ineadanique? </a>
                             <ul>
                                 <li><i class="far fa-user"></i> Benjami Evlent</li>
@@ -413,7 +495,8 @@
                             <span class="button_bg">Playing</span>
                         </a>
                         <div class="single_article_text">
-                            <a class="title" href="#">Amamaing of the SpyerIin a work find to a make it workd is
+                            <a class="title" href="single_blog1.html">Amamaing of the SpyerIin a work find to a make it
+                                workd is
                                 ineadanique? </a>
                             <ul>
                                 <li><i class="far fa-user"></i> Benjami Evlent</li>
@@ -458,7 +541,8 @@
 
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -478,7 +562,8 @@
 
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -498,7 +583,8 @@
 
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -518,7 +604,8 @@
 
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -538,7 +625,8 @@
 
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -558,7 +646,8 @@
 
                         <div class="trendy_news_text">
                             <span class="button_bg">Knowing</span>
-                            <a class="title" href="#">Heard of the SpyerIin a work Top Things to See in and Do in
+                            <a class="title" href="single_blog1.html">Heard of the SpyerIin a work Top Things to See in
+                                and Do in
                                 Northern California</a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam consequatur quas
                                 reprehenderit quo nesciunt atque voluptatem! Impedit, sunt alias?</p>
@@ -597,7 +686,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -620,7 +710,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -643,7 +734,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -666,7 +758,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -689,7 +782,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -713,7 +807,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -736,7 +831,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -759,7 +855,8 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="single_article_text">
-                                    <a class="title" href="#">Heard of the SpyerIin a work find to a make it find to
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work find to a
+                                        make it find to
                                         make it amazing treat in to dhaka workd is ineadanique? </a>
                                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                                         et laboriosam officia optio illum numquam sint ex fugiat inventore maxime, non,
@@ -785,7 +882,8 @@
                                 </div>
                                 <div class="large_artical_text">
                                     <span class="button_bg">Playing Cricket</span>
-                                    <a class="title" href="#">They must promise to the fight world into the make fidn it
+                                    <a class="title" href="single_blog1.html">They must promise to the fight world into
+                                        the make fidn it
                                         itTechnique?</a>
                                 </div>
                             </div>
@@ -797,7 +895,8 @@
                                 </div>
                                 <div class="large_artical_text">
                                     <span class="button_bg">Playing Cricket</span>
-                                    <a class="title" href="#">They must promise to the fight world into the make fidn it
+                                    <a class="title" href="single_blog1.html">They must promise to the fight world into
+                                        the make fidn it
                                         itTechnique?</a>
                                 </div>
                             </div>
@@ -809,7 +908,8 @@
                                 </div>
                                 <div class="large_artical_text">
                                     <span class="button_bg">Playing Cricket</span>
-                                    <a class="title" href="#">They must promise to the fight world into the make fidn it
+                                    <a class="title" href="single_blog1.html">They must promise to the fight world into
+                                        the make fidn it
                                         itTechnique?</a>
                                 </div>
                             </div>
@@ -844,7 +944,8 @@
                                 </div>
                                 <div class="trendy_news_text">
                                     <span class="button_bg">Knowing</span>
-                                    <a class="title" href="#">Heard of the SpyerIin a work ineadanique? </a>
+                                    <a class="title" href="single_blog1.html">Heard of the SpyerIin a work ineadanique?
+                                    </a>
                                     <div class="d-flex flex-wrap w-100 justify-content-between">
                                         <span class="time"><i class="far fa-user"></i> Benjami Evlent</span>
                                         <span class="time"><i class="far fa-clock"></i> 2 Days Ago</span>
@@ -857,7 +958,8 @@
                                         <img src="images/single_article_img_1.jpg" alt="post">
                                     </div>
                                     <div class="text">
-                                        <a class="title" href="#">Scarlett’s disappoinment at latest accolade</a>
+                                        <a class="title" href="single_blog1.html">Scarlett’s disappoinment at latest
+                                            accolade</a>
                                         <p>
                                             <span><b>By</b> Jhon</span>
                                             <span><i class="far fa-clock"></i> 2 hours ago</span>
@@ -869,7 +971,8 @@
                                         <img src="images/single_article_img_2.jpg" alt="post">
                                     </div>
                                     <div class="text">
-                                        <a class="title" href="#">Scarlett’s disappoinment at latest accolade</a>
+                                        <a class="title" href="single_blog1.html">Scarlett’s disappoinment at latest
+                                            accolade</a>
                                         <p>
                                             <span><b>By</b> Jhon</span>
                                             <span><i class="far fa-clock"></i> 2 hours ago</span>
